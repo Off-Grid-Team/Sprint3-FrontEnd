@@ -13,7 +13,7 @@ const Topbar = () => {
                 <a href="#home">Home</a>
                 <a href="#publico">Público</a>
                 <a href="#galeria">Galeria</a>
-                <a href="#equipe">Contato</a>
+                <a href="#contato">Contato</a>
             </nav>
 
             {/* <button className="topbar-button">

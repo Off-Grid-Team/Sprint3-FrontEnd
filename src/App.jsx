@@ -20,7 +20,7 @@ const App = () => {
         <section id="galeria">
             <Galeria />
         </section>
-        <section id="equipe">
+        <section id="contato">
             <Equipe />
         </section>
       </main>
