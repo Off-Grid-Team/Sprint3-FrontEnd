@@ -10,9 +10,10 @@ const Topbar = () => {
             </div>
 
             <nav className="topbar-menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#publico">Público</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#equipe">Contato</a>
             </nav>
 
             {/* <button className="topbar-button">
