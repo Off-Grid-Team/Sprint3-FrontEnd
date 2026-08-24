@@ -6,7 +6,7 @@ const Topbar = () => {
     <>
         <header className="topbar">
             <div className="topbar-logo">
-                App
+                Off-Grid
             </div>
 
             <nav className="topbar-menu">

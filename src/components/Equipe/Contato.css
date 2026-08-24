@@ -1,0 +1,48 @@
+.cards-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+}
+
+.card {
+    background-color: #1b2559;
+
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+
+    font-size: 1.5rem;
+}
+
+.card p {
+    line-height: 1.6;
+}
