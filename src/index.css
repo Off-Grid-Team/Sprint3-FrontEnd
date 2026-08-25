@@ -14,3 +14,12 @@ section {
   min-height: 100vh;
   padding: 80px 32px;
 }
+
+#galeria {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+#galeria h2 {
+  margin-bottom: 40px;
+}
