@@ -25,6 +25,8 @@
     color: white;
 
     transition: 0.3s;
+
+    max-height: 60vh;
 }
 
 .card:hover {
