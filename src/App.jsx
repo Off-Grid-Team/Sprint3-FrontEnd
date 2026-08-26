@@ -11,16 +11,16 @@ const App = () => {
       <Topbar />
 
       <main>
-        <section id="home">
+        <section>
             <Home />
         </section>
-        <section id="publico">
+        <section>
             <Publico />
         </section>
-        <section id="galeria">
+        <section>
             <Galeria />
         </section>
-        <section id="contato">
+        <section>
             <Equipe />
         </section>
       </main>

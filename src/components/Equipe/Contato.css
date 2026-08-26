@@ -1,3 +1,13 @@
+#contato {
+  padding: 80px 8%;
+  text-align: center;
+  max-height: 100vh;
+}
+
+#contato h2 {
+  margin-bottom: 40px;
+}
+
 .cards-container {
     display: flex;
 
@@ -26,7 +36,7 @@
 
     transition: 0.3s;
 
-    max-height: 60vh;
+    max-height: 50vh;
 }
 
 .card:hover {

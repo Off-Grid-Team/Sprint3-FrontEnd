@@ -1,17 +1,76 @@
-.persona {
-    min-height: 100vh;
+#publico {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+#publico h2 {
+  margin-bottom: 40px;
+}
+
+.persona-card {
+    max-height: 80vh;
     padding: 100px 8%;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #222222;
 }
 
-.persona > h2 {
-    margin-bottom: 50px;
+.persona-image {
+    width: 50%;
+    max-height: 80vh;
 
-    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 16px;
+}
+
+.persona-image img {
+    object-fit: cover;
+    border-radius: 16px;
+    max-height: 80vh;
+}
+
+.persona-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+
+    gap: 20px;
+
+    color: white;
+}
+
+.persona-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.persona-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+
+    gap: 20px;
+
+    color: white;
+}
+
+.persona-details h4{
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.persona-details li{
+    text-align: left;
+    margin-bottom: 10px;
 }

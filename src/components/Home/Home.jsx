@@ -4,6 +4,7 @@ import './Home.css'
 const Home = () => {
   return (
     <>
+    <section id="home">
       <h1>Uma nova experiência para câmeras de celular</h1>
       <h2>Reestruturação da interface do aplicativo com foco em uma experiência mais intuitiva, acessível e eficiente.</h2>
       <p>Este projeto apresenta uma proposta de reestruturação da UI do aplicativo de câmera nativo dos celulares da JOVI, 
@@ -25,6 +26,7 @@ const Home = () => {
           Conheça o projeto!
         </button>
       </a>
+    </section>
       
     </>
   )
