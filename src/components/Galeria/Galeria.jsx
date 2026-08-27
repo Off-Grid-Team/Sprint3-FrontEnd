@@ -10,15 +10,15 @@ const Galeria = () => {
 
         <div className="galeria-grid">
           <div className="galeria-item">
-            <img src="/images/Tela_Inicial.png" alt="Imagem 1" />
+            <img src="/images/tela-inicial.png" alt="Imagem 1" />
             <p>Tela Inicial</p>
           </div>
           <div className="galeria-item">
-            <img src="/images/Tela_Info.png" alt="Imagem 2" />
+            <img src="/images/tela-info.png" alt="Imagem 2" />
             <p>Tela de Informações</p>
           </div>
           <div className="galeria-item">
-            <img src="/images/Tela_Modos.png" alt="Imagem 3" />
+            <img src="/images/tela-modos.png" alt="Imagem 3" />
             <p>Tela de Lista de Modos</p>
           </div>
         </div>
