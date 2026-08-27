@@ -6,7 +6,7 @@ const Contato = () => {
     <>
       <section id="contato">
         <h2>Contato</h2>
-        <p>Conheça nossa equipe!</p>
+        <h3>Conheça nossa equipe!</h3>
 
         <section className="cards-container">
           <div className="card">
@@ -16,12 +16,12 @@ const Contato = () => {
 
           <div className="card">
             <h3>Gustavo Tavares</h3>
-            <p>Designer de UI/UX</p>
+            <p>Documentação</p>
           </div>
 
           <div className="card">
             <h3>Ricardo Salmerón</h3>
-            <p>Gerente de Projeto</p>
+            <p>Desenvolvedor Back-end</p>
           </div>
 
         </section>

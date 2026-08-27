@@ -1,6 +1,7 @@
 #galeria {
   padding: 80px 8%;
   text-align: center;
+  color: var(--text);
 }
 
 #galeria h2 {

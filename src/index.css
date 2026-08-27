@@ -1,7 +1,16 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --background: #ffffff;
+  --text: #222222;
+  --section-background: #eeeeee;
+  --card-background: #969696;
+  --topbar-background: #222222;
 }
 
 html {
@@ -18,11 +27,20 @@ section {
 
 main {
   margin: 0;
-  background-color: #555;
   padding: 0;
+  background-color: var(--section-background);
+  transition: background-color 0.3s ease;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+body.dark {
+  --background: #121212;
+  --text: #ffffff;
+  --section-background: #1e1e1e;
+  --card-background: #4d4d4d;
+  --topbar-background: #111111;
 }

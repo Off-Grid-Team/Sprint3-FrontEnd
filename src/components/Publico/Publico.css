@@ -1,6 +1,7 @@
 #publico {
   padding: 80px 8%;
   text-align: center;
+  color: var(--text);
 }
 
 #publico h2 {
@@ -17,7 +18,7 @@
 
     box-sizing: border-box;
     border-radius: 32px;
-    background-color: #222222;
+    background-color: var(--card-background);
 }
 
 .persona-image {
@@ -44,8 +45,6 @@
     text-align: center;
 
     gap: 20px;
-
-    color: white;
 }
 
 .persona-info p {
@@ -61,8 +60,6 @@
     text-align: justify;
 
     gap: 20px;
-
-    color: white;
 }
 
 .persona-details h4{

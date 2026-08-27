@@ -12,18 +12,13 @@ const App = () => {
       <Topbar />
 
       <main>
-        <section>
-            <Home />
-        </section>
-        <section>
-            <Publico />
-        </section>
-        <section>
-            <Galeria />
-        </section>
-        <section>
-            <Equipe />
-        </section>
+          <Home />
+      
+          <Publico />
+      
+          <Galeria />
+      
+          <Equipe />
       </main>
 
       <Footer />

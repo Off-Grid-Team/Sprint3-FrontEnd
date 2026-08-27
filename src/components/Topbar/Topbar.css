@@ -13,8 +13,10 @@
     padding: 0 20px;
     box-sizing: border-box;
 
-    background-color: #222;
+    background-color: var(--topbar-background);
     color: white;
+
+    transition: background-color 0.3s ease;
 
     z-index: 1000;
 }
@@ -39,4 +41,17 @@
     text-decoration: underline;
     font-weight: bold;
     color: #aaa;
+}
+
+.botao-tema {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-tema:hover {
+    font-weight: bold;
+    color: #555;
 }

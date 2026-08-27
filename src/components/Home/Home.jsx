@@ -22,7 +22,7 @@ const Home = () => {
       </p>
       
       <a className="button-container" href="#publico">
-        <button a href="#publico">
+        <button className="botao-pagina">
           Conheça o projeto!
         </button>
       </a>

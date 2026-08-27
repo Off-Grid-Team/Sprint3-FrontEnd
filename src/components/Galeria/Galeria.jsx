@@ -24,7 +24,7 @@ const Galeria = () => {
         </div>
 
         <a className="button-container" target="_blank" href="https://www.figma.com/proto/0m8rZT3DurRDQ2TUSxGrQd/JOVI-Sprint-1?node-id=1-11&p=f&t=EzYrxRyagZjv722H-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A11">
-          <button>
+          <button className="botao-pagina" >
             Experimente nosso Protótipo!
           </button>
         </a>
