@@ -31,10 +31,10 @@ const Contato = () => {
             <h4>Documentação</h4>
 
             <div className="social-icons">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/fgustavot/" target="_blank" rel="noopener noreferrer">
                 <img src="/images/linkedin-app-icon.png" alt="LinkedIn" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/fgustavot" target="_blank" rel="noopener noreferrer">
                 <img src="/images/github-app-icon.png" alt="GitHub" />
               </a>
             </div>
