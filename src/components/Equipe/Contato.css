@@ -1,4 +1,4 @@
-#contato {
+/* #contato {
   padding: 80px 8%;
   text-align: center;
   min-height: 100vh;
@@ -20,8 +20,6 @@
     flex-wrap: wrap;
 
     margin:0 auto;
-
-    /* padding-top: 60px; */
 }
 
 .card {
@@ -29,7 +27,6 @@
 
     width: 280px;
 
-    /* padding: 30px; */
     padding-top: 30px;
     margin-bottom: 0px;
 
@@ -48,8 +45,6 @@
 
 .icon {
     font-size: 3rem;
-
-    /* padding-bottom: 20px; */
 }
 
 .card h3 {
@@ -58,7 +53,7 @@
     font-size: 1.5rem;
 }
 
-.card img {
+.card > img {
     width: 60%;
     height: auto;
     border-radius: 50%;
@@ -73,6 +68,16 @@
 }
 
 .social-icons img {
+    width: 100%;
+    height: 100%;
     border-radius: 15%;
+    object-fit: contain;
+    margin-bottom: 0;
     transition: transform 0.3s ease;
 }
+
+.social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+} */
