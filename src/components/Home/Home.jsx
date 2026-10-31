@@ -3,13 +3,13 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section id="home" className="text-[var(--text)]">
+    <section id="home" className="text-[var(--text)] mt-16">
 
-      <h1 className="mb-[40px] px-[10%] text-center text-[32px] font-bold">
+      <h1 className="mb-[40px] px-[10%] text-center text-3xl font-bold">
         Uma nova experiência para câmeras de celular
       </h1>
 
-      <h2 className="mb-[30px] px-[10%] text-center text-[28px] font-bold">
+      <h2 className="mb-[30px] px-[10%] text-center text-2xl font-bold">
         Reestruturação da interface do aplicativo com foco em uma experiência mais intuitiva, acessível e eficiente.
       </h2>
 
@@ -18,7 +18,7 @@ const Home = () => {
         da empresa buscando solucionar problemas encontrados na interface atual e tornar a navegação mais simples e agradável para seus usuários jovens estudantes, como adoramos desafios topamos realizar esse desenvolvimento.
       </p>
 
-      <h2 className="mb-[30px] px-[10%] text-center text-[28px] font-bold">
+      <h2 className="mb-[30px] px-[10%] text-center text-xl font-bold">
         O Problema
       </h2>
 
@@ -28,7 +28,7 @@ const Home = () => {
         disponíveis. Isso normalmente leva a frustrações e uma experiência de usuário insatisfatória.
       </p>
 
-      <h2 className="mb-[30px] px-[10%] text-center text-[28px] font-bold">
+      <h2 className="mb-[30px] px-[10%] text-center text-xl font-bold">
         A Solução
       </h2>
 
