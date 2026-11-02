@@ -12,13 +12,13 @@ const Contato = () => {
 
       <div className="mx-auto mt-0 flex flex-wrap items-stretch justify-center gap-[30px]">
         {/* Felipe */}
-        <div className="mb-0 w-[280px] max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-[30px] text-center transition duration-300 hover:-translate-y-[10px]">
-          <h3 className="pb-[15px] text-2xl font-semibold">Felipe Rabelo</h3>
+        <div className="mb-0 w-70 max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-8 text-center transition duration-300 hover:-translate-y-[10px]">
+          <h3 className="pb-4 text-2xl font-semibold">Felipe Rabelo</h3>
 
           <img
             src="/images/foto-felipe.png"
             alt="Felipe Rabelo"
-            className="mb-[15px] h-auto w-[60%] rounded-full mx-auto"
+            className="mb-4 h-auto w-[60%] rounded-full mx-auto"
           />
 
           <h4 className="text-xl">Desenvolvedor Front-end</h4>
@@ -53,13 +53,13 @@ const Contato = () => {
         </div>
 
         {/* Gustavo */}
-        <div className="mb-0 w-[280px] max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-[30px] text-center transition duration-300 hover:-translate-y-[10px]">
-          <h3 className="pb-[15px] text-2xl font-semibold">Gustavo Tavares</h3>
+        <div className="mb-0 w-70 max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-8 text-center transition duration-300 hover:-translate-y-[10px]">
+          <h3 className="pb-4 text-2xl font-semibold">Gustavo Tavares</h3>
 
           <img
             src="/images/foto-gustavo.png"
             alt="Gustavo"
-            className="mb-[15px] h-auto w-[60%] rounded-full mx-auto"
+            className="mb-4 h-auto w-[60%] rounded-full mx-auto"
           />
 
           <h4 className="text-xl">Documentação</h4>
@@ -94,13 +94,13 @@ const Contato = () => {
         </div>
 
         {/* Ricardo */}
-        <div className="mb-0 w-[280px] max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-[30px] text-center transition duration-300 hover:-translate-y-[10px]">
-          <h3 className="pb-[15px] text-2xl font-semibold">Ricardo Salmerón</h3>
+        <div className="mb-0 w-70 max-h-[50vh] rounded-[20px] bg-[var(--card-background)] pt-8 text-center transition duration-300 hover:-translate-y-[10px]">
+          <h3 className="pb-4 text-2xl font-semibold">Ricardo Salmerón</h3>
 
           <img
             src="/images/foto-ricardo.png"
             alt="Ricardo"
-            className="mb-[15px] h-auto w-[60%] rounded-full mx-auto"
+            className="mb-4 h-auto w-[60%] rounded-full mx-auto"
           />
 
           <h4 className="text-xl">Desenvolvedor Back-end</h4>

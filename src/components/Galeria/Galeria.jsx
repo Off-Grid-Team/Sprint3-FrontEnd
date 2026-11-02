@@ -12,14 +12,14 @@ const Galeria = () => {
       </h2>
 
       {/* Galeria de imagens */}
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-5">
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-5 lg:grid-cols-3 lg:gap-4 sm:grid-cols-3">
 
         {/* Tela Inicial */}
-        <div className="flex min-w-0 flex-col items-center gap-[10px]">
+        <div className="flex min-w-0 flex-col items-center gap-2">
           <img
             src="/images/tela-inicial.png"
             alt="Tela Inicial"
-            className="max-h-[80vh] w-full rounded-[24px] object-contain sm:rounded-[32px]"
+            className="max-h-[80vh] w-full object-contain rounded-2xl"
           />
 
           <p className="text-base font-bold">
@@ -28,11 +28,11 @@ const Galeria = () => {
         </div>
 
         {/* Tela de Informações */}
-        <div className="flex min-w-0 flex-col items-center gap-[10px]">
+        <div className="flex min-w-0 flex-col items-center gap-2">
           <img
             src="/images/tela-info.png"
             alt="Tela de Informações"
-            className="max-h-[80vh] w-full rounded-[24px] object-contain sm:rounded-[32px]"
+            className="max-h-[80vh] w-full object-contain rounded-2xl"
           />
 
           <p className="text-base font-bold">
@@ -41,11 +41,11 @@ const Galeria = () => {
         </div>
 
         {/* Tela de Lista de Modos */}
-        <div className="flex min-w-0 flex-col items-center gap-[10px] sm:last:col-span-2">
+        <div className="flex min-w-0 flex-col items-center gap-2">
           <img
             src="/images/tela-modos.png"
             alt="Tela de Lista de Modos"
-            className="max-h-[80vh] w-full rounded-[24px] object-contain sm:rounded-[32px]"
+            className="max-h-[80vh] w-full object-contain rounded-2xl"
           />
 
           <p className="text-base font-bold">
